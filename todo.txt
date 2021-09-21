@@ -1,0 +1,14 @@
+Website includes:
+DONE..1. A login page
+DONE..2. A place to post questions
+DONE..3. A place to answer the question posted
+4. A rating to each question
+5. Rating to the answer provided
+DONE..6. An SQL or equivalent DB technology where all the questions and answers are stored
+7. Contact us form page
+
+Backend and Hosting:
+Save all the contact us inputs on the database, and create a view to handle all the records. Tasks include:
+1. Search and sort: based on the user entries like the services, or the email, phone number, names etc.
+2. Delete: records with irrelevant information to be removed/fake/false records to be removed
+3. Insert: new records to be inserted when a new entry is submitted
