@@ -26,7 +26,8 @@
 .login__logo {
   display: flex;
   justify-content: center;
-  height: 60px;
+  width: auto;
+  height: auto;
 }
 .login__logo > img{
   width:70px;
