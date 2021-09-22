@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import HomeIcon from '@material-ui/icons/Home';
-import FeaturedPlayListOutlinedIcon from "@material-ui/icons/FeaturedPlayListOutlined";
-import AssignmentTurnedInOutlinedIcon from "@material-ui/icons/AssignmentTurnedInOutlined";
 import PeopleAltOutlinedIcon from "@material-ui/icons/PeopleAltOutlined";
-import NotificationsOutlinedIcon from "@material-ui/icons/NotificationsOutlined";
 import SearchIcon from "@material-ui/icons/Search";
 import '../css/Navbar.css';
 import { Avatar, Button, Input, Link } from "@material-ui/core";
@@ -69,27 +66,13 @@ function Navbar() {
                 <div className="qHeader_icon">
                 <HomeIcon />
                 </div>
-                {/* <div className="qHeader_icon">
-                <FeaturedPlayListOutlinedIcon />
-                </div>
-                <div className="qHeader_icon">
-                <AssignmentTurnedInOutlinedIcon />
-                </div>
-                <div className="qHeader_icon">
-                <PeopleAltOutlinedIcon />
-                </div>
-                <div className="qHeader_icon">
-                <NotificationsOutlinedIcon />
-                </div> */}
             </div>
             <div className="qHeader_input">
                 <SearchIcon />
                 <input type="text" placeholder="Search Quora" />
             </div>
             <div className="qHeader_Rem">
-                {/* <div className="qHeader_avatar"> */}
-                    <Button onClick={() => auth.signOut()}>Logout</Button>
-                {/* </div> */}
+                <Button onClick={() => auth.signOut()}>Logout</Button>
                 <Button onClick={() => setOpenModal(true)}>Add Question</Button>
                 <Button onClick={() => setContactModal(true)}>Contact Us!</Button>
                 <Modal

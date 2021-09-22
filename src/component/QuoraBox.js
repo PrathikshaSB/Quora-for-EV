@@ -12,10 +12,10 @@ function QuoraBox() {
                 <Avatar 
                 src={user.photo}
                 />
-                <h5>{user.displayName}</h5>
+                <h5>{user.email}</h5>
             </div>
             <div className='quoraBox_quora'>
-                <p>what is your question or link?</p>
+                <p>Welcome {user.email}!</p>
             </div>
         </div>
     )
