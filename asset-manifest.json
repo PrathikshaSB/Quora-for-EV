@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Quora-for-EV/static/css/main.666081d3.chunk.css",
+    "main.js": "/Quora-for-EV/static/js/main.029d3b21.chunk.js",
+    "main.js.map": "/Quora-for-EV/static/js/main.029d3b21.chunk.js.map",
+    "runtime-main.js": "/Quora-for-EV/static/js/runtime-main.4753b26a.js",
+    "runtime-main.js.map": "/Quora-for-EV/static/js/runtime-main.4753b26a.js.map",
+    "static/js/2.8117311e.chunk.js": "/Quora-for-EV/static/js/2.8117311e.chunk.js",
+    "static/js/2.8117311e.chunk.js.map": "/Quora-for-EV/static/js/2.8117311e.chunk.js.map",
+    "index.html": "/Quora-for-EV/index.html",
+    "static/css/main.666081d3.chunk.css.map": "/Quora-for-EV/static/css/main.666081d3.chunk.css.map",
+    "static/js/2.8117311e.chunk.js.LICENSE.txt": "/Quora-for-EV/static/js/2.8117311e.chunk.js.LICENSE.txt",
+    "static/media/logo.cbfeb205.png": "/Quora-for-EV/static/media/logo.cbfeb205.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4753b26a.js",
+    "static/js/2.8117311e.chunk.js",
+    "static/css/main.666081d3.chunk.css",
+    "static/js/main.029d3b21.chunk.js"
+  ]
+}
