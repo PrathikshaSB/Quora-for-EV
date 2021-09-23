@@ -72,9 +72,9 @@ function Navbar() {
                 <input type="text" placeholder="Search Quora" />
             </div>
             <div className="qHeader_Rem">
-                <Button onClick={() => auth.signOut()}>Logout</Button>
                 <Button onClick={() => setOpenModal(true)}>Add Question</Button>
                 <Button onClick={() => setContactModal(true)}>Contact Us!</Button>
+                <Button onClick={() => auth.signOut()}>Logout</Button>
                 <Modal
                     isOpen={openModal}
                     onRequestClose = {() => setOpenModal(false)}
@@ -148,23 +148,24 @@ function Navbar() {
                 >
                     <div className="modal_title">
                         <h5>Contact Us!</h5>
-                        </div>
-                        <div className="modal_info">
-                            <Avatar className="avatar" src={user.photo}/>
-                            <p>{user.displaName ? user.displaName : user.email}</p>
-                        </div>
-                        <div className="modal_Field">
-                            <Input
+                    </div>
+                    <p style={{color: "gray"}}>For all queries, please contact us using the form below.</p>
+                    <div className="modal_info">
+                        <Avatar className="avatar" src={user.photo}/>
+                        <p>{user.displaName ? user.displaName : user.email}</p>
+                    </div>
+                    <div className="modal_Field">
+                        <Input
                                 value={inputC}
                                 required
                                 onChange={(e) => setInputC(e.target.value)}
                                 type="text"
-                                placeholder="Give feedback here..."
+                                placeholder="How can we help you?"
                             />
                     </div>
                     <div className="modal_buttons">
                         <button onClick={() => setContactModal(false)} className="cancle">Close</button>
-                        <button onClick={handleContact} type="submit" className="add">Send!</button>
+                        <button onClick={handleContact} type="submit" className="add">Submit</button>
                     </div>
                 </Modal>
 
